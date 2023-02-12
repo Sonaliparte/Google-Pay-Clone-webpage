@@ -1,0 +1,67 @@
+img{
+    height: 70px;
+    position: relative;
+    bottom:3px;
+}
+
+.clip-circle{
+    clip-path: circle(40.2% at 50% 50%);}
+h1{
+    display: block;
+    position: relative;
+    left: 100px;
+    bottom: 85px;
+}
+hr{
+    position: relative;
+    bottom: 100px;
+
+}
+*{
+    font-family: border-box;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:15px 30px;
+    font-size: 17px;
+    padding:8px;
+}
+
+.container{
+    background-color:rgb(240, 234, 234);
+    padding:5px 20px;
+    border:1px solid lightgray;
+    border-radius:4px;
+}
+
+input[type="text"],
+input[type="E-mail"],
+input[type="number"],
+input[type="Address"],
+input[type="month"],
+select,
+textarea {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin:5px; ``  
+}
+button[type="submit"]  {
+  background-color: hwb(150 7% 34%);
+  color: white;
+  padding:12px 20px;
+  border: none;
+  border-radius: 4px;
+  width:100;
+}
+button[type="submit"]:hover{
+    background-color:rgb(18, 156, 48);
+}
+
+@media  (max-width:375px) {
+    #h1{
+        position: :relative;
+        left: 100px;
+    }
+}
